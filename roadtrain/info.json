@@ -1,0 +1,9 @@
+{
+  "name": "roadtrain",
+  "version": "1.0.0",
+  "title": "roadtrain",
+  "author": "Cheata",
+  "contact": "",
+  "description": "Trailers for vehicles",
+  "dependencies": ["base >= 0.11.19"]
+} 
