@@ -38,8 +38,8 @@ data:extend(
       layers =
       {
         {
-          width = 139,
-          height = 110,
+          width = 90,
+          height = 80,
           frame_count = 1,
           axially_symmetrical = false,
           direction_count = 64,
@@ -56,17 +56,12 @@ data:extend(
             {
              filename = "__roadtrain__/graphics/entity/trailer/base-2.png",
              width_in_frames = 1,
-             height_in_frames = 16,
+             height_in_frames = 24,
             },
             {
              filename = "__roadtrain__/graphics/entity/trailer/base-3.png",
              width_in_frames = 1,
-             height_in_frames = 16,
-            },
-            {
-             filename = "__roadtrain__/graphics/entity/trailer/base-4.png",
-             width_in_frames = 1,
-             height_in_frames = 16,
+             height_in_frames = 24,
             }
           }
         },
@@ -80,7 +75,7 @@ data:extend(
           max_advance = 1,
           line_length = 2,
           shift = {0, -0.171875},
-          stripes = util.multiplystripes(2,
+          stripes = 
           {
             {
               filename = "__base__/graphics/entity/car/car-mask-1.png",
@@ -97,7 +92,7 @@ data:extend(
               width_in_frames = 1,
               height_in_frames = 20,
             },
-          })
+          }
         },
       }
     },
